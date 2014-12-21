@@ -11,7 +11,7 @@ int main()
     string line;
 
     getline( cin, line );
-    string::size_type end = 0;
+    decltype( line.size() ) end = 0;
 
     while ( end < line.size() ) {
         string temp;
